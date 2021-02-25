@@ -1,0 +1,215 @@
+
+.shopFeaturedItem {
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 80%;
+    height: 20vh;
+    background: white;
+
+    background: url('/img/creamsugarset.png');
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    cursor:pointer;
+    text-align:center;
+    
+}
+
+.shopFeaturedItemDescription {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 40px;
+
+    justify-content: flex-end;
+    
+}
+.shopFeaturedItemDescriptionP1 {
+    align-self: center;
+    font-size: 24px;
+}
+
+.shopFeaturedItemNudge {
+    width: 15vh;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+    margin: 15px;
+
+    border: solid 2px rgb(228, 121, 121);;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shopFeaturedItemNudgeParagraph {
+    margin-top: 8px;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .shopFeaturedItem{
+    margin: 20px auto;
+    width: 90%;
+    }
+}
+
+.shopGrid {
+    margin: 30px 2vh;
+    max-width: 1920px;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+
+
+
+
+
+
+
+.shopListing {
+    height:45vh;
+    width: 35vh;
+    background: #fff;
+
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .shopListing{
+        min-height:25vh;
+        width: 45vh;
+    }
+}
+.shopListingParagraph {
+    text-align: center;
+    align-self: center;
+    margin: 20px 40px;
+}
+
+.shopListingHeading {
+    margin-top: 20px;
+    text-align:center;
+
+}
+
+.shopListingDescription {
+    margin: 0 20px;
+}
+
+
+
+.shopListingPricing {
+    height:50%;
+    width: 45vh;
+    margin-bottom: 20px;
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    /* align-self: center; */
+    align-items: flex-end;
+}
+@media only screen and (max-width: 800px) {
+    .shopListingPricing{
+        height:25vh;
+        width: 45vh;
+    }
+}
+.shopListingPrice {
+
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+
+
+.shopListingCounter {
+
+    background: rgb(222, 222, 223);
+    height: 30px;
+    width: 35px;
+
+    border-radius: 8px;
+    border: none;
+    z-index: 2;
+    text-align: center;
+    font-size: 16px;
+}
+
+.shopAddBtn {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    background: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 90px;
+    margin-left: 10px;
+
+
+    border-radius: 8px;
+    border: solid 2px rgb(228, 121, 121);
+    outline:none;
+    z-index: 1;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.shopAddBtn:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.itemImg {
+    height: 100%;
+    width: 200px;
+    
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center;
+}
+.itemImg2 {
+    height: 200px;
+    width: 200px;
+    
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: center;
+}
+
+.featured {
+    transition: ease-in-out 3s;
+}

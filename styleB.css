@@ -1,0 +1,90 @@
+.landingHorizontal {
+    color: white;
+}
+
+.blogIntro {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.blogIntroHeading {
+
+    text-align:  center;
+    font-style: oblique;
+    font-size: 28px;
+    margin: 45px 10%;
+    margin-bottom: 50px;
+}
+
+.blogIntroParagraph {
+    text-align:  center;
+    align-self: center;
+    max-width: 300px;
+    min-width: 50px;
+
+    margin-bottom: 35px;
+}
+
+.blogPostBody {
+    margin: 50px 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.blogPost {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    max-width: 1920px;
+}
+
+.blogPostImage { 
+    height: 600px;
+    width: auto;
+
+    flex: 1;
+    margin: 15px;
+    background: url('/blogimg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+
+    
+}
+
+.blogPostContent {
+    flex: 2;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.blogDetails {
+    border-bottom: solid 2px white;
+    margin-top: 30px;
+    font-style: oblique;
+    font-size: 12px;
+
+    align-self: flex-start;
+}
+
+.blogPostHeading {
+    margin: 20px 0px;
+
+    
+    font-style: oblique;
+    font-size: 28px;
+}
+
+.blogPostParagraph {
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}

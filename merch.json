@@ -1,0 +1,60 @@
+
+[
+    
+    {
+        "id": 1,
+        "title": "Coffee Grinder",
+        "body": "This legendary coffe grinder will crush your beans like no one before! new blades allowing to extract the best contents from every piece of coffee to get that astonishing blend!",
+        "img":  "coffeegrinder.jpg",
+        "price": "41.99"
+    },
+
+    {
+    "id": 2,
+    "title": "POP Snack and Cookie Jars",
+    "body": "Handy storage for your beans. Product made easly compositable components to make sure that every little piece of it will be safe reused in the future!",
+    "img":  "jar.jpg",
+    "price": "41.99"
+    },
+
+    {
+        "id": 3,
+        "title": "Brush",
+        "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quasnvoluptate dolores velit et doloremque molestiae",
+        "img":  "brush.png",
+        "price": "14.49"
+    },
+
+    {
+        "id": 4,
+        "title": "cream & sugar set",
+        "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
+        "img":  "creamsugarset.png",
+        "price": "19.95"
+    },
+
+    {
+        "id": 5,
+        "title": "Eco straws",
+        "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum",
+        "img":  "straws.png",
+        "price": "5.00"
+    },
+
+    {
+        "id": 6,
+        "title": "Thermos (each)",
+        "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
+        "img":  "thermos.jpg",
+        "price": "22.99"
+    },
+
+    {
+        "id": 7,
+        "title": "white Cup",
+        "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
+        "img":  "white-cup.jpg",
+        "price": "9.99"
+    }
+
+]

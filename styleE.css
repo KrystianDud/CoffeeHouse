@@ -1,0 +1,131 @@
+
+.landingCoffee {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.categories {
+    padding: 10px;
+    background-color: #fff;
+    
+    max-width: 1920px;
+
+}
+@media only screen and (max-width: 800px) {
+    .categories { 
+        padding: 0px;
+    }
+}
+
+.categoriesParagraph {
+    margin: 50px 150px;
+    align-self: center;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid 2px black;
+}
+
+.catCoffClass {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    height: 50%;
+    margin-left: 10%;
+    
+    margin-right: 10%;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 800px) {
+    .catCoffClass {
+        margin-right: 0vh;
+        flex-direction: column-reverse;
+        border: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0%;
+    }
+}
+
+.catCoffText {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 800px) {
+    .catCoffText {
+        margin-right: 0vh;
+        flex-direction: column-reverse;
+        border: none;
+        margin-left: 5px;
+
+        margin-right: 25px;
+    }
+}
+
+.catCoffImg {
+    flex: 1;
+    margin-top: 20px;
+}
+
+
+.coffeSampleImages {
+    width: 20vh;
+    height: 20vh;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 800px) {
+    .coffeSampleImages{
+        width: 30vh;
+        height: 30vh;
+
+        margin-left: 0%;
+    }
+}
+
+#coffeSampleImage1 {
+    background: url('espresso.jpg');
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 140%;
+    background-position: right;
+}
+
+
+#coffeSampleImage2 {
+    background: url('americano.jpg');
+    border: none;
+    
+    background-repeat: no-repeat;
+    background-size: auto 110%;
+    background-position: left, top;
+}
+
+#coffeSampleImage3 {
+    background: url('latte.jpg');
+    border: none;
+    
+    background-repeat: no-repeat;
+    background-size: auto 110%;
+    background-position: right, top;
+}
+
+#coffeSampleImage4 {
+    background: url('Cappuccino.jpg');
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    background-position: right, top;
+}
+
+#coffeSampleImage5 {
+    background: url('flatwhite.jpg');
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 130%;
+    background-position: top;
+}
+

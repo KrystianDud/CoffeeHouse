@@ -1,0 +1,127 @@
+.main {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.contactCard {
+    display: flex;
+    background: white;
+
+    margin-top: 10vh;
+    width:70%;
+    height:70vh;
+    align-self:center;
+    justify-content: center;
+    align-items: center;
+
+    background: url('coffeemachine.jpg');
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+
+    
+}
+@media only screen and (max-width: 800px) {
+    .contactCard {
+        width: 100%;
+    }
+}
+
+.coffeeCard {
+    /* position: relative;
+    top: -50vh;
+    left: 30vh; */
+    background: palevioletred;
+    background: linear-gradient(to bottom left, rgb(209, 86, 127), rgb(228, 121, 121) );
+    width:360px;
+    height: 240px;
+    border-radius: 24px;
+
+    display:flex;
+    flex-direction:column;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .coffeeCard {
+        font-size: 15px;
+    }
+}
+
+.cardTitle {
+    font-size: 22px;
+    margin: 20px 0px;
+}
+@media only screen and (max-width: 800px) {
+    .cardTitle {
+        font-size: 16px;
+        margin: 20px 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .cardContact {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+.cardPhone {
+    display:flex;
+    flex-direction:row;
+
+    margin: 15px;
+}
+
+.cardEmail {
+    display:flex;
+    flex-direction:row;
+    margin: 15px;
+}
+
+.cardLink {
+    margin-top: 25px;
+    align-self:center;
+}
+@media only screen and (max-width: 800px) {
+    .cardLink {
+        margin-top: -40px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+.footer {
+    background-color: rgb(31, 31, 31);
+    background: linear-gradient(180deg, #161616, #0c0907);
+    color:white;
+
+    height: 10vh;
+    width: 100%;
+    bottom: 0px;
+
+    justify-self: flex-end;
+}
+
+.address {
+    font-size: 22px;
+    margin: 20px 45px
+}
+
+.footerElements {
+    display:flex;
+    flex-direction:row;
+
+    align-items: center;
+    justify-content: center;
+
+    
+}
